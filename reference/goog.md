@@ -11,7 +11,7 @@ Daily time series of class `ts`.
 
 ## Source
 
-<https://finance.yahoo.com/quote/GOOG/history>
+<https://finance.yahoo.com/quote/GOOG/history/>
 
 ## Examples
 

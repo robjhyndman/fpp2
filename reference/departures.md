@@ -26,6 +26,6 @@ Australian Bureau of Statistics. Catalogue No 3401.02.
 ## Examples
 
 ``` r
-autoplot(departures, facets=TRUE)
+autoplot(departures, facets = TRUE)
 
 ```

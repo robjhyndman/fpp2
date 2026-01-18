@@ -10,7 +10,7 @@ Annual time series of class `ts`.
 ## Source
 
 Boston Athletic Association.
-<https://www.baa.org/races/boston-marathon/results/champions>
+<https://www.baa.org/races/boston-marathon/results/champions/>
 
 ## Examples
 

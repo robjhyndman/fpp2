@@ -17,6 +17,6 @@ Ansett Airlines (which no longer exists).
 ## Examples
 
 ``` r
-autoplot(melsyd, facets=TRUE)
+autoplot(melsyd, facets = TRUE)
 
 ```

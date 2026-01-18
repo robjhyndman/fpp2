@@ -2,6 +2,8 @@
 
 ## fpp2 (development version)
 
+- Updated site URLs
+
 ## fpp2 2.5
 
 CRAN release: 2023-02-19

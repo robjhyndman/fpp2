@@ -14,6 +14,6 @@ Rob Hyndman
 ## Examples
 
 ``` r
-autoplot(calls, xlab="Weeks")
+autoplot(calls, xlab = "Weeks")
 
 ```

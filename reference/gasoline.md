@@ -14,6 +14,6 @@ US Energy Information Administration.
 ## Examples
 
 ``` r
-autoplot(gasoline, xlab="Year")
+autoplot(gasoline, xlab = "Year")
 
 ```

@@ -14,7 +14,7 @@ You can install the **stable** version from
 [CRAN](https://cran.r-project.org/package=fpp2).
 
 ``` r
-install.packages('fpp2', dependencies = TRUE)
+install.packages("fpp2", dependencies = TRUE)
 ```
 
 You can install the **development** version from
@@ -48,7 +48,7 @@ library(fpp2)
 #> Registered S3 method overwritten by 'quantmod':
 #>   method            from
 #>   as.zoo.data.frame zoo
-#> ── Attaching packages ────────────────────────────────────────────── fpp2 2.5 ──
+#> ── Attaching packages ─────────────────────────────────────── fpp2 2.5.0.9000 ──
 #> ✔ ggplot2   4.0.1          ✔ fma       2.5       
 #> ✔ forecast  9.0.0          ✔ expsmooth 2.3.0.9000
 #> 

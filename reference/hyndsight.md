@@ -16,6 +16,6 @@ Rob Hyndman
 ## Examples
 
 ``` r
-autoplot(hyndsight, xlab="Weeks")
+autoplot(hyndsight, xlab = "Weeks")
 
 ```

@@ -15,6 +15,6 @@ Federal Reserve Bank of St Louis.
 ## Examples
 
 ``` r
-autoplot(uschange, facet=TRUE)
+autoplot(uschange, facet = TRUE)
 
 ```
