@@ -9,7 +9,7 @@ Annual time series of class \code{ts}.
 }
 \source{
 Boston Athletic Association.
-\url{https://www.baa.org/races/boston-marathon/results/champions}
+\url{https://www.baa.org/races/boston-marathon/results/champions/}
 }
 \description{
 Winning times (in minutes) for the Boston Marathon Men's Open Division.

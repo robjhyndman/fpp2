@@ -9,7 +9,7 @@
 Daily time series of class \code{ts}.
 }
 \source{
-\url{https://finance.yahoo.com/quote/GOOG/history}
+\url{https://finance.yahoo.com/quote/GOOG/history/}
 }
 \description{
 Closing stock prices of GOOG from the NASDAQ exchange, for 1000 consecutive

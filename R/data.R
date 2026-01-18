@@ -310,7 +310,7 @@ NULL
 #' @name goog
 #' @docType data
 #' @format Daily time series of class \code{ts}.
-#' @source \url{https://finance.yahoo.com/quote/GOOG/history}
+#' @source \url{https://finance.yahoo.com/quote/GOOG/history/}
 #' @keywords datasets
 #' @examples
 #'
@@ -420,7 +420,7 @@ NULL
 #' @docType data
 #' @format Annual time series of class \code{ts}.
 #' @source Boston Athletic Association.
-#' \url{https://www.baa.org/races/boston-marathon/results/champions}
+#' \url{https://www.baa.org/races/boston-marathon/results/champions/}
 #' @keywords datasets
 #' @examples
 #'
