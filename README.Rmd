@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/fpp2)](https://cran.r-project.org/package=fpp2)
-[![R build status](https://github.com/robjhyndman/fpp2-package/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp2-package/actions)
+[![R build status](https://github.com/robjhyndman/fpp2/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp2/actions)
 [![Downloads](http://cranlogs.r-pkg.org/badges/fpp2)](https://cran.r-project.org/package=fpp2)
 <!-- badges: end -->
 
@@ -33,11 +33,11 @@ install.packages('fpp2', dependencies = TRUE)
 ```
 
 You can install the **development** version from
-[Github](https://github.com/robjhyndman/fpp2-package)
+[Github](https://github.com/robjhyndman/fpp2)
 
 ```{r eval = FALSE}
-# install.packages("remotes")
-remotes::install_github("robjhyndman/fpp2-package")
+# install.packages("pak")
+pak::pak("robjhyndman/fpp2")
 ```
 
 ## Usage

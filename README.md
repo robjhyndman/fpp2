@@ -8,7 +8,7 @@
 [![CRAN
 status](https://www.r-pkg.org/badges/version/fpp2)](https://cran.r-project.org/package=fpp2)
 [![R build
-status](https://github.com/robjhyndman/fpp2-package/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp2-package/actions)
+status](https://github.com/robjhyndman/fpp2/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp2/actions)
 [![Downloads](http://cranlogs.r-pkg.org/badges/fpp2)](https://cran.r-project.org/package=fpp2)
 <!-- badges: end -->
 
@@ -30,11 +30,11 @@ install.packages('fpp2', dependencies = TRUE)
 ```
 
 You can install the **development** version from
-[Github](https://github.com/robjhyndman/fpp2-package)
+[Github](https://github.com/robjhyndman/fpp2)
 
 ``` r
-# install.packages("remotes")
-remotes::install_github("robjhyndman/fpp2-package")
+# install.packages("pak")
+pak::pak("robjhyndman/fpp2")
 ```
 
 ## Usage
@@ -60,7 +60,7 @@ library(fpp2)
 #>   method            from
 #>   as.zoo.data.frame zoo
 #> ── Attaching packages ────────────────────────────────────────────── fpp2 2.5 ──
-#> ✔ ggplot2   4.0.1           ✔ fma       2.5        
-#> ✔ forecast  8.24            ✔ expsmooth 2.3
+#> ✔ ggplot2   4.0.1          ✔ fma       2.5       
+#> ✔ forecast  9.0.0          ✔ expsmooth 2.3.0.9000
 #> 
 ```

@@ -25,12 +25,12 @@ Authors@R:
     person(given = "RStudio",
            role = c("cph")))
 URL:
-  https://pkg.robjhyndman.com/fpp2-package/,
-  https://github.com/robjhyndman/fpp2-package,
+  https://pkg.robjhyndman.com/fpp2/,
+  https://github.com/robjhyndman/fpp2,
   https://otexts.com/fpp2/
-BugReports: https://github.com/robjhyndman/fpp2-package/issues
+BugReports: https://github.com/robjhyndman/fpp2/issues
 Encoding: UTF-8
 License: GPL-3
 LazyData: yes
 LazyLoad: yes
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.3
