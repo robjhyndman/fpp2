@@ -27,7 +27,7 @@ short-term (less than one year) visitors departing. January 1976 - November
 }
 \examples{
 
-autoplot(departures, facets=TRUE)
+autoplot(departures, facets = TRUE)
 
 }
 \keyword{datasets}

@@ -18,7 +18,7 @@ disposable income, production, savings and the unemployment rate for the US,
 }
 \examples{
 
-autoplot(uschange, facet=TRUE)
+autoplot(uschange, facet = TRUE)
 
 }
 \keyword{datasets}

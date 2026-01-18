@@ -19,7 +19,7 @@ least two changes in the definitions of passenger classes.
 }
 \examples{
 
-autoplot(melsyd, facets=TRUE)
+autoplot(melsyd, facets = TRUE)
 
 }
 \keyword{datasets}

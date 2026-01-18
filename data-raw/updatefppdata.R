@@ -30,7 +30,8 @@ devtools::use_data(ausair, overwrite = TRUE)
 #### ausbeer and other manufacturing production series
 # No longer updated, so these finish in 2010
 ausproduction <- readxl::read_excel(
-  "data-raw/830101.xls", sheet = "Data1",
+  "data-raw/830101.xls",
+  sheet = "Data1",
   skip = 9, col_names = TRUE
 )
 ausbeer <- ts(ausproduction[, "A2267030W"], frequency = 4, start = 1956)[, 1]
@@ -42,7 +43,8 @@ devtools::use_data(ausbeer, overwrite = TRUE)
 # Download from http://www.abs.gov.au/ausstats/meisubs.NSF/log?openagent&850101.xls&8501.0&Time%20Series%20Spreadsheet&5E102CC545C6F85CCA2581CC000D2753&0&Sep%202017&03.11.2017&Latest
 auscafe <- ts(
   readxl::read_excel(
-    "data-raw/850101.xls", sheet = "Data1",
+    "data-raw/850101.xls",
+    sheet = "Data1",
     skip = 9, col_names = TRUE
   )[, "A3348636C"] / 1e3,
   start = c(1982, 4), frequency = 12
@@ -103,7 +105,8 @@ devtools::use_data(debitcards, overwrite = TRUE)
 # Download from http://www.abs.gov.au/ausstats/abs@archive.nsf/log?openagent&340102.xls&3401.0&Time%20Series%20Spreadsheet&B3DDF0CC880C5BA4CA25817C0017524B&0&Jun%202017&15.08.2017&Latest
 departures <- ts(
   readxl::read_excel(
-    "data-raw/340102.xls", sheet = "Data1",
+    "data-raw/340102.xls",
+    sheet = "Data1",
     skip = 9, col_names = TRUE
   ),
   start = 1976, frequency = 12
@@ -139,9 +142,10 @@ devtools::use_data(euretail, overwrite = TRUE)
 #### gasoline
 gasoline <- readxl::read_excel("data-raw/WGFUPUS2w.xls", sheet = 2, skip = 3, col_names = FALSE)
 gasoline <- ts(
-  gasoline[, 2], frequency = 365.25 / 7,
+  gasoline[, 2],
+  frequency = 365.25 / 7,
   start = 1991.1
-)[,1]/1e3
+)[, 1] / 1e3
 tail(gasoline)
 plot(gasoline)
 devtools::use_data(gasoline, overwrite = TRUE)
@@ -318,7 +322,7 @@ devtools::use_data(usmelec, overwrite = TRUE)
 
 #### visnights
 visnights <- read.csv("data-raw/vn2.csv")
-visnights <- ts(visnights/1e3, start = 1998, frequency = 4)
+visnights <- ts(visnights / 1e3, start = 1998, frequency = 4)
 devtools::use_data(visnights, overwrite = TRUE)
 
 #### wmurders

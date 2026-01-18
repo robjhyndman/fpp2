@@ -16,7 +16,7 @@ Weekly data beginning 2 February 1991, ending 20 January 2017. Units are
 }
 \examples{
 
-autoplot(gasoline, xlab="Year")
+autoplot(gasoline, xlab = "Year")
 
 }
 \keyword{datasets}

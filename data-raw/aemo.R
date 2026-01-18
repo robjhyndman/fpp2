@@ -51,5 +51,5 @@ elecdaily <- cbind(
   aggregate.ts(elecdemand[, c("Temperature")], nfrequency = 365, max)
 )
 colnames(elecdaily) <- c("Demand", "WorkDay", "Temperature")
-elecdaily <- ts(elecdaily, start = c(1,4), frequency = 7)
+elecdaily <- ts(elecdaily, start = c(1, 4), frequency = 7)
 usethis::use_data(elecdaily, overwrite = TRUE)

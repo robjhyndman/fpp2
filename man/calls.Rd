@@ -16,7 +16,7 @@ beginning 3 March 2003 for 164 days.
 }
 \examples{
 
-autoplot(calls, xlab="Weeks")
+autoplot(calls, xlab = "Weeks")
 
 }
 \keyword{datasets}

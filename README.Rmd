@@ -29,7 +29,7 @@ You can install the **stable** version from
 [CRAN](https://cran.r-project.org/package=fpp2).
 
 ```{r eval = FALSE}
-install.packages('fpp2', dependencies = TRUE)
+install.packages("fpp2", dependencies = TRUE)
 ```
 
 You can install the **development** version from

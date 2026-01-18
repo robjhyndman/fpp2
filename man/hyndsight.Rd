@@ -18,7 +18,7 @@ to allow the weekly pattern to be modelled.
 }
 \examples{
 
-autoplot(hyndsight, xlab="Weeks")
+autoplot(hyndsight, xlab = "Weeks")
 
 }
 \keyword{datasets}
