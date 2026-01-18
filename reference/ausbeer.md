@@ -16,9 +16,5 @@ Australian Bureau of Statistics. Cat. 8301.0.55.001.
 ``` r
 data(ausbeer)
 ggseasonplot(ausbeer)
-#> Warning: Arguments in `...` must be used.
-#> ✖ Problematic argument:
-#> • na.rm = TRUE
-#> ℹ Did you misspell an argument name?
 
 ```

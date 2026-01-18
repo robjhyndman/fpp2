@@ -18,17 +18,17 @@ install.packages('fpp2', dependencies = TRUE)
 ```
 
 You can install the **development** version from
-[Github](https://github.com/robjhyndman/fpp2-package)
+[Github](https://github.com/robjhyndman/fpp2)
 
 ``` r
-# install.packages("remotes")
-remotes::install_github("robjhyndman/fpp2-package")
+# install.packages("pak")
+pak::pak("robjhyndman/fpp2")
 ```
 
 ## Usage
 
-[`library(fpp2)`](https://pkg.robjhyndman.com/fpp2-package/) will load
-the following packages:
+[`library(fpp2)`](https://pkg.robjhyndman.com/fpp2/) will load the
+following packages:
 
 - [forecast](https://pkg.robjhyndman.com/forecast/), for forecasting
   methods and some data sets.
@@ -49,7 +49,7 @@ library(fpp2)
 #>   method            from
 #>   as.zoo.data.frame zoo
 #> ── Attaching packages ────────────────────────────────────────────── fpp2 2.5 ──
-#> ✔ ggplot2   4.0.1           ✔ fma       2.5        
-#> ✔ forecast  8.24            ✔ expsmooth 2.3
+#> ✔ ggplot2   4.0.1          ✔ fma       2.5       
+#> ✔ forecast  9.0.0          ✔ expsmooth 2.3.0.9000
 #> 
 ```

@@ -9,13 +9,13 @@ required to run the examples are also loaded.
 
 Useful links:
 
-- <https://pkg.robjhyndman.com/fpp2-package/>
+- <https://pkg.robjhyndman.com/fpp2/>
 
-- <https://github.com/robjhyndman/fpp2-package>
+- <https://github.com/robjhyndman/fpp2>
 
 - <https://otexts.com/fpp2/>
 
-- Report bugs at <https://github.com/robjhyndman/fpp2-package/issues>
+- Report bugs at <https://github.com/robjhyndman/fpp2/issues>
 
 ## Author
 
