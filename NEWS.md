@@ -1,4 +1,4 @@
-# fpp2 (development version)
+# fpp2 2.5.1
  * Updated site URLs
 
 # fpp2 2.5
