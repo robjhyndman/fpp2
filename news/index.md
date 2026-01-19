@@ -1,5 +1,7 @@
 # Changelog
 
+## fpp2 (development version)
+
 ## fpp2 2.5.1
 
 CRAN release: 2026-01-19
