@@ -10,7 +10,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/robjhyndman/fpp2/blob/master/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/robjhyndman/fpp2/blob/v2.5.1/DESCRIPTION)
 
 Hyndman R (2026). *fpp2: Data for "Forecasting: Principles and Practice"
 (2nd Edition)*. R package version 2.5.1,
